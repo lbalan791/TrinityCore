@@ -117,8 +117,7 @@ enum LocaleConstant
 {
 	LOCALE_ERROR = -1,
 
-	LOCALE_enGB = 0,
-    LOCALE_enUS = 0,
+    LOCALE_enUS = 0, //enGB is 0 as well. Not used since 6.0
     LOCALE_koKR = 1,
     LOCALE_frFR = 2,
     LOCALE_deDE = 3,
